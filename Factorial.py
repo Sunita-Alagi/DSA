@@ -1,4 +1,4 @@
-print("Enter the positive integer to get factorial")
+print('Enter the positive integer to get factorial')
 n=int(input())
 fact=1
 if n >0:
