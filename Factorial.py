@@ -1,23 +1,26 @@
 print('Enter the positive integer to get factorial')
-n=int(input())
+num=int(input())
 fact=1
 if n >0:
-    for n in range (1,n+1):
-        fact*=n
-    print(fact)
+    for num in range (1,num+1):
+        fact*=num
+    print('The Factorial of',num,'is' fact)
 else:
     raise ValueError('You must enter a non-negative integer')
-#using recusion
+
 # Factorial of a number using recursion
-
 print('Enter the positive integer to get factorial')
-n=int(input())
-if n < 0:
-    raise ValueError('You must enter a non-negative 
-else:
-    def fact(n):
-        if n == 1:
-            return n
-        else:
-            return n*fact(n-1)
+num=int(input())
+def factorial(n):
+   if n == 1:
+       return n
+   else:
+       return n*factorial(n-1)
 
+# check if the number is negative
+if num < 0:
+   print('Sorry, factorial does not exist for negative numbers')
+elif num == 0:
+   print('The factorial of 0 is 1')
+else:
+   print('The factorial of', num, 'is', factorial(num))
