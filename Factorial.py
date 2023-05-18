@@ -17,7 +17,7 @@ def factorial(n):
    else:
        return n*factorial(n-1)
 
-# check if the number is negative
+# Check if the number is negative
 if num < 0:
    print('Sorry, factorial does not exist for negative numbers')
 elif num == 0:
