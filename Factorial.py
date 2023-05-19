@@ -1,3 +1,4 @@
+# Factorial of a number using Iteration
 print('Enter the positive integer to get factorial')
 num=int(input())
 fact=1
@@ -8,7 +9,7 @@ if n >0:
 else:
     raise ValueError('You must enter a non-negative integer')
 
-# Factorial of a number using recursion 
+# Factorial of a number using Recursion 
 print('Enter the positive integer to get factorial')
 num=int(input())
 def factorial(n):
