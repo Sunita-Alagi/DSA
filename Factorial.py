@@ -1,4 +1,4 @@
-# Factorial of a number using Iteration
+# Factorial of a number using Iteration 
 print('Enter the positive integer to get factorial')
 num=int(input())
 fact=1
