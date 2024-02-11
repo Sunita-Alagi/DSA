@@ -11,6 +11,6 @@ def search_insert(nums, target):
         elif nums[mid] < target:
             low = mid + 1
         else:
-            high = mid - 1  
+            high = mid - 1
 
     return low
